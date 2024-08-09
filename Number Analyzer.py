@@ -30,7 +30,7 @@ while True:
     elif number % 2 != 0 and number > 60:
         print(f"{name}, {number} is Odd and greater than 60.")
 
-    # Thi is asking if they wants to continue entering numbers
+    # This is asking if they want to continue entering numbers
     continue_program = input(f"{name}, do you want to check another number? (yes/no): ").lower()
     if continue_program != 'yes':
         print(f"Goodbye, {name}!")
